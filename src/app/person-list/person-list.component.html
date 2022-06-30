@@ -1,0 +1,7 @@
+<ul class="person">
+    <button *ngFor="let p of person" (click)="selectPerson(p)" [class.selected]="selectedPerson == p">
+    {{ p.name }}
+  </button>
+</ul>
+
+<app-detail-person [person]="selectedPerson"></app-detail-person>

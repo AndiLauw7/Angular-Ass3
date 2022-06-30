@@ -1,0 +1,22 @@
+.detail {
+    width: 30%;
+    background-color: #48df23;
+}
+
+.detail p {
+    height: 10px;
+    margin: 10px 10px;
+    padding: 10px 0;
+}
+
+div {
+    padding: 10px;
+    border: 1px solid;
+}
+
+button {
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    margin: 0 5px;
+}

@@ -1,0 +1,22 @@
+button:hover {
+    background-color: #c0bdbd;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid;
+    display: block;
+    color: #000;
+}
+
+.selected {
+    background-color: #48df23;
+}
+
+.person {
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+}

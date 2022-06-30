@@ -1,0 +1,11 @@
+<div class="detail" *ngIf="person">
+    <p>Email :{{ " " + person.email }}</p>
+    <p>Company :{{ " " + person.company }}</p>
+    <p>Region :{{ " " + person.region }}</p>
+    <p>Country :{{ " " + person.country }}</p>
+
+    <div>
+        <button (click)="editPerson(person)">edit</button>
+        <button (click)="deletePerson(person)">delete</button>
+    </div>
+</div>

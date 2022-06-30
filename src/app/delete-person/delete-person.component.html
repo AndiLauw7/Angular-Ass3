@@ -1,0 +1,11 @@
+<div *ngIf="person">
+    <h1>ARE YOU SURE YOU WANT TO DELETE?</h1>
+    <p>Name: {{ person.name }}</p>
+    <p>Email: {{ person.email }}</p>
+    <p>Company: {{ person.company }}</p>
+    <p>Region: {{ person.region }}</p>
+    <p>Country: {{ person.country }}</p>
+
+    <button (click)="deletePerson()">Yes</button>
+    <!-- <button (click)="back()">No</button> -->
+</div>

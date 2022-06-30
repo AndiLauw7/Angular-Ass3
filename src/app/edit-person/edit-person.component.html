@@ -1,0 +1,28 @@
+<h1>ok</h1>
+
+<div *ngIf="person" class="forms">
+    <h1>EDIT PERSON</h1>
+
+    <div>
+        <label>Name: </label>
+        <input [(ngModel)]="person.name" />
+    </div>
+    <div>
+        <label>Email: </label>
+        <input [(ngModel)]="person.email" />
+    </div>
+    <div>
+        <label>Company: </label>
+        <input [(ngModel)]="person.company" />
+    </div>
+    <div>
+        <label>Region: </label>
+        <input [(ngModel)]="person.region" />
+    </div>
+    <div>
+        <label>Country: </label>
+        <input [(ngModel)]="person.country" />
+    </div>
+    <button type="button" (click)="back()">Cancel</button>
+    <button type="button">Save</button>
+</div>
